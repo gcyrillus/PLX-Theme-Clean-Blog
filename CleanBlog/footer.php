@@ -5,6 +5,9 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
+						                            <li class="d-block m-2">
+                                <a href="<?php $plxShow->urlRewrite('#top') ?>" title="<?php $plxShow->lang('GOTO_TOP') ?>" class="list-inline-item"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
+                            </li>
                             <!--<li class="list-inline-item">
                                 <?php $plxShow->lang('POWERED_BY') ?>&nbsp;<a href="<?= PLX_URL_REPO?>" title="<?php $plxShow->lang('PLUXML_DESCRIPTION') ?>">PluXml</a>
 				<?php $plxShow->lang('IN') ?>&nbsp;<?php $plxShow->chrono(); ?>&nbsp;
@@ -15,12 +18,10 @@
 <?php  if($plxShow->plxMotor->aConf['enable_rss']) { ?><li class="list-inline-item"><a href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS'); ?>"><i class="fas fa-rss fa-2x" style="transform:scale(-1,1)"></i>&nbsp;</a> </li><?php } ?>
 <?php if($plxShow->plxMotor->aConf['enable_rss_comment']) { ?><li class="list-inline-item"><a href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires'); ?>" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>"><i class="fas fa-rss fa-2x"></i>&nbsp;</a></li><?php  } ?> 
                          
-                            <li class="list-inline-item pe-5">
-                                <a href="<?php $plxShow->urlRewrite('#top') ?>" title="<?php $plxShow->lang('GOTO_TOP') ?>" class="list-inline-item ms-5 d-inline-block"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a>
-                            </li>                         
+                         
                         </ul>
 
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; <?php $plxShow->mainTitle('link'); echo ' 2018-'.date('Y'); ?> <a rel="nofollow" href="<?php $plxShow->urlRewrite('core/admin/'); ?>" title="<?php $plxShow->lang('ADMINISTRATION') ?>"><?php $plxShow->lang('ADMINISTRATION') ?></a></div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; <?php $plxShow->mainTitle('link'); echo ' 2018-'.date('Y').' '; ?> <a rel="nofollow" href="<?php $plxShow->urlRewrite('core/admin/'); ?>" title="<?php $plxShow->lang('ADMINISTRATION') ?>"> <i class="fas fa-toolbox fa-2x"></i></a></div>
                     </div>
                 </div>
             </div>

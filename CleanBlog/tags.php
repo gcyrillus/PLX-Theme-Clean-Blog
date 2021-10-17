@@ -1,6 +1,6 @@
 <?php include __DIR__.'/header.php'; ?>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('<?php $plxShow->template(); ?>/assets/img/about-bg.jpg')">
+        <header class="masthead" style="background-image: url('<?php $plxShow->template(); ?>/assets/img/static-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">

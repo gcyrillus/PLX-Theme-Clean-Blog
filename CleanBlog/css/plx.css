@@ -136,3 +136,16 @@ a.maintitle {
     color: #0085A1;
   }  
 }
+.fa-archive {
+	color:gray;
+}
+.fa-tags,
+.fa-rss ,
+.fa-rss-square {
+  color:#F48744;
+}
+.fa-archive:hover ,
+.fa-rss:hover ,
+.fa-rss-square:hover {
+  color:inherit;
+}
