@@ -1,6 +1,6 @@
 # PLX-Theme-Clean-Blog
 
-Une adapation pour PluXml du théme Clean Blog 
+Une adapation pour PluXml du thème Clean Blog 
  <table align="center">
   <thead >
     <tr>
