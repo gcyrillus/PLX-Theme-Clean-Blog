@@ -149,3 +149,25 @@ a.maintitle {
 .fa-rss-square:hover {
   color:inherit;
 }
+
+span[class^="p_"] a, 
+p.more a  {
+  color:orange
+}
+span[class^="p_"] a:hover, 
+p.more a:hover {
+  color:#0085A1
+}
+
+.post-preview:hover ,
+.post-preview:hover :is(p, h2, span)  {
+  color:#2596AE;
+}
+.post-preview:hover :is(h2 a, p.more a ) {
+    color:#F48744;
+}
+
+div.form-floating:focus-within label {
+  color:var(--bs-primary);
+  font-weight:bold;
+}
